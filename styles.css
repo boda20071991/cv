@@ -1,0 +1,102 @@
+body {
+    background-color: #f6fafa;
+    color: rgb(44, 8, 78);
+    font-size: 16;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    color: rgb(91, 9, 199);
+    text-decoration: none;
+}
+
+a:hover { text-decoration: underline;}
+.ava {
+    width: 150px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+}
+.info {
+    color: rgb(8, 47, 126);
+    margin: 20px;
+    font-style: italic;
+}
+.container {
+max-width: 1000px;
+margin: auto;
+}
+
+.bg-1{ background: rgb(248, 248, 180);} 
+.bg-2{background: rgb(245, 185, 185);}
+.bg-3{background:#b7f5b7 ;}
+.bg-4{background: rgb(250, 213, 166);}
+.bg-5{background: rgb(194, 224, 252);}
+.one {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.list{
+    padding: 0 20px ;
+}
+.list li {
+    color: rgb(64, 1, 122);
+    margin-bottom: 10px;
+}
+.list2{
+    padding: 0 20px ;
+}
+.list2 li{
+    color: rgb(64, 1, 122);
+    margin-bottom: 10px;
+ }
+ .table{
+     width: 100%;
+ }
+ .table td{ 
+     padding-bottom: 10px;
+ }
+ .table tr:nth-child(even) {
+     background-color: rgb(157, 248, 157);
+ }
+.v2 li {
+    margin-bottom: 10px;
+   padding-bottom: 5px;
+  border-bottom: 1px solid #070707;
+}
+.contact h2{
+    text-align: center;
+
+}
+.form-group label {  
+    display: block;
+}
+.form-group input, .form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+   border-bottom: 1px solid #b7f5b7  ;
+   color: #000;
+   padding: 15px 0 10px;
+   font-family: inherit;
+}
+.info{display: flex;}
+.info-text{
+    margin-left: 40px;
+}
+.info-text h4{
+    margin-bottom: 10px;
+
+}
+.container{
+    padding-top: 20px;
+}
+.btn {
+   background:#000 ;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0,9;
+}
